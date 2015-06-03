@@ -16,4 +16,26 @@ import javax.swing.JPanel;
 
 public class InterfaceBMP extends JFrame
 {
+
+	private MenuBar menuBar;
+	private InfoPanel infoPanel;
+	private ImagePanel imagePanel;
+	
+	private File file;
+	private int totalBytes;
+	private int reserved1;
+	private int reserved2;
+	private int offset;
+	private int header;
+	private int width;
+	private int height;
+	private int planes;
+	private int depth;
+	private int compression;
+	private int size;
+	private int resolutionW;
+	private int resolutionH;
+	private int colors1;
+	private int colors2;
+	private byte[] bytes;
 }
